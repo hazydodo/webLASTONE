@@ -1,0 +1,197 @@
+
+
+body {
+    background-color: antiquewhite;
+}
+    
+header {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 0;
+    text-align: center;    
+}
+
+
+    
+.maincontent{
+
+    
+    background-color: #1abc9c;
+    color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+
+    
+
+
+}
+
+
+
+
+.navigation {
+    background-color: #0fa889;
+    justify-content: center;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.btn-group .button {
+    background-color: #0fa889;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.button-group .button:hover {
+    opacity: 0.5;
+}
+
+.submit-button {
+    padding-top: 5%;
+}
+
+input[type="text"] {
+    padding: 1%;
+    width: 60%;
+    height: 50%;
+    font-size: 17px;
+}
+
+textarea {
+    font-size: 18px;
+    width: 90%;
+    height: 50%;
+    resize: none;
+
+}
+input[type="datetime-local"] {
+    width: 35%;
+    height: 50%;
+    padding: 1%;
+    font-size: 18px;
+}
+
+html, body, textarea {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.title {
+    color: white;
+    outline: invert;
+    margin-top: -12%;
+    border: 10px;
+    font-size: large;
+
+}
+
+.footer {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.repeat {
+    padding-top: 2%;
+    font-size: 24px;
+}
+
+input[type="number"] {
+    padding: 1%;
+    width: 7%;
+    height: 30%;
+    font-size: 17px;
+}
+
+.goal_name {
+    margin-top: -70px;
+    text-align: left;
+}
+
+.goal_description {
+    width: 75%;
+}
+
+.target-container > div {
+    background-color:#0fa889;
+    width: 95%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.45);
+}
+
+#p2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+}
+
+footer {
+    
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+
+button {
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+
+

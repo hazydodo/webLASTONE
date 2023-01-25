@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evil time management</title>
+</head>
+<body>
+    <header><h3>evil time management co.</h3></header>
+
+
+    <div class = "navigation">
+        <div class="btn-group">
+            <button class="button-nav" onclick="window.location.href = 'index.html';">acomplish all your evil schemes one task at a time</button>
+        </div>
+    </div>
+
+
+    <div class = "maincontent">
+        <h1>Sign up</h1>
+
+        <div id = "behaviour_data" hidden></div>
+
+        <form id = "main_form" onsubmit="return false">
+            <div class = "right">
+                <label for="uname"><b>Username:</b></label><br>
+                <input type="text" placeholder="Your Username" name="uname" id="uname"><br>
+                <label class="good" id="uname_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="uname_error"><b>
+                    please select a valid username<br>length 5 to 12, starts in uppercase<br> and ends with a special character
+                    
+                </b></label><br>
+                <label for="mail"><b>E-mail:</b></label><br>
+                <input type="text" placeholder="Your e-mail" name="mail" id="email"><br>
+                <label class="good" id="email_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="email_error"><b>this field must be a valid email</b></label><br>
+                <label for="psw"><b>Password:</b></label><br>
+                <input type="text" placeholder="Password" name="psw" id="psw"><br>
+                <label class="good" id="password_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="password_error"><b>
+                    please enter a valid password<br>length 12+ must contain uppercase<br> and lowercase letters<br> numbers and symbols.
+                </b></label><br>
+                <label for="pswconfirm"><b>Confirm Password:</b></label><br>
+                <input type="text" placeholder="Confirm Password" name="pswconfirm" id="pswconfirm"><br>
+                <label class="good" id="c_password_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="c_password_error"><b>please enter the correct password</b></label><br>
+                <b>Sex:</b><br>
+                <input type="radio" id="male" name="sex" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="sex" value="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="sex" value="Other">
+                <label for="other">Other</label>
+                <label class="good" id="sex_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="sex_error"><b>This is a required field!</b></label><br>
+            </div>
+            <div align = "left">
+                <label for="fullname"><b>Full Name:</b></label><br>
+                <input type="text" placeholder="Your Full Name" name="fullname" id = "fullname"><br>
+                <label class="good" id="name_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="name_error"><b>this field must contain the alphabet only</b></label><br>
+                <label for="mail"><b>Country:</b></label><br>
+                <input type="text" placeholder="Your country" name="country" id = "country"><br>
+                <label class="good" id="country_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="country_error"><b>This is a required field!</b></label><br>
+
+                <label for="adr"><b>Address:</b></label><br>
+                <input type="text" placeholder="Your Address" name="adr" id = "address"><br>
+                <label class="good" id="adr_optional"><b>this field is optional</b></label><br>
+
+
+
+                <label for="zip"><b>ZIP code:</b></label><br>
+                <input type="text" placeholder="Your ZIP" name="zip" id = "zip"><br> 
+                <label class="good" id="zip_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="zip_error"><b>this field must be a valid zip code for the netherlands</b></label><br>
+                <label for="lang"><b>Language: </b></label><br>
+                <input type="text" placeholder="Your language" name="lang" id = "language"><br> 
+                <label class="good" id="language_verified"><b>Looks good!</b></label><br>
+                <label class="error" id="language_error"><b>This is a required field!</b></label><br>
+
+            </div>
+
+            <label for="bio"><b><br><br>Bio: </b></label><br>
+            <textarea rows="6" cols="59" name="bio" placeholder="Your bio" id = "bio"></textarea>
+            <label class="good" id="bio_optional"><b>this field is optional</b></label><br>
+            <div>
+                <br>
+                <button type="button" class="cancelbutton" onclick="window.location.href = 'index.html'">Cancel</button>
+                <input type="submit" class="signupbutton" style="padding: 10px 5px;background-color: plum;color: rgb(79, 87, 237);border: 1px solid #ccc;border-radius: 10px;cursor: pointer;display: inline-block;" value="Submit"></button>
+            </div>
+        </form>
+    </div>
+
+    <script src="validation_regex.js"></script>
+    <script src="tracker.js"></script>
+
+    <footer><p>helping villains set up their evil goals since 1968</p></footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>evil time management co.</title>
+
+</head>
+<body>
+    
+    <header><h3>evil time management co.</h3></header>
+     
+    <div class = "navigation">
+        <div class="btn-group">
+            <button class="button" onclick="window.location.href = 'Main_Page.html';">home</button>
+            <button class="button" onclick="window.location.href = 'List_of_Goals.html';">goal list</button>
+            <button class="button" onclick="window.location.href = 'creategoal.html';"><b><u>new goal</u></b></button>
+            <button class="button" onclick="window.location.href = 'index.html';">logout</button>
+          </div>
+    </div>
+
+    <div class = "maincontent">
+        <div class = "title">
+            <h1><b><u>set up new evil goals...</u></b></h1>
+        </div>
+
+
+        <div class = "inputs">
+            
+                <div class = "name">
+                    <input type="text"  name="name" required minlength="3" maxlength="10" placeholder="enter goal name">
+                </div>
+            
+
+                <div class = "description">
+                    <textarea rows="6" cols="59" id="description_box" placeholder="enter goal description"></textarea>
+
+                </div>
+
+                <div class = "time_limit">
+                    <input type="datetime-local" id="deadline" name="deadline">
+                    <p1 style="opacity: 0.6; font-size: 17px;">goal deadline</p1>
+                </div>
+                
+                <div class = "submit-button">
+                    <button style = "width: 70px; height: 45px; font-size: 16px; float: right;" onclick="window.location.href = 'creategoal.html';">Submit</button>
+                </div>
+
+            
+        </div>
+    </div>
+
+    <footer>
+        <p><a href="https://en.wikipedia.org/wiki/SMART_criteria">S.M.A.R.T</a> is a userful acronym to remember that helps you set useful goals.
+        </p>
+    </footer>
+
+
+</body>
+</html>

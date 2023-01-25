@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>evil time management</title>
+
+</head>
+<body>
+    
+    <header><h3>evil time management co.</h3></header>
+
+    <div class = "navigation">
+        <div class="btn-group">
+            <button class="button" onclick="window.location.href = 'Main_Page.html';">home</button>
+            <button class="button" onclick="window.location.href = 'List_of_Goals.html';">goal list</button>
+            <button class="button" onclick="window.location.href = 'createtask.html';"><b><u>new task</u></b></button>
+            <button class="button" onclick="window.location.href = 'index.html';">logout</button>
+          </div>
+
+        
+        
+
+    </div>
+
+    <div class = "maincontent">
+        <div class = "title">
+            <h1><b><u>set up new evil targets...</u></b></h1>
+        </div>
+
+        <div class = "inputs"> 
+            
+
+            <input type="text"  name="name" required minlength="3" maxlength="10" placeholder="enter target name">
+
+            <div class = "description">
+                <textarea rows="6" cols="59" id="description_box" placeholder="enter target description"></textarea>
+
+            </div>
+
+            <div class = "time_limit">
+                <input type="datetime-local" id="deadline" name="deadline">
+                <p1 style="opacity: 0.6; font-size: 17px;">target deadline</p1>
+            </div>
+            
+            <div class = "repeat">
+                <label for="quantity">repeat target</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="99" value="1">
+                time(s) every
+                <input type="number" id="frequency" name="frequency" min="0" max="99" value="0">
+                day(s)
+            </div>
+
+            <div class = "submit-button">
+                <button style = "width: 70px; height: 45px; font-size: 16px; float: right; background-color: white; border-radius: 3px;" onclick="window.location.href = 'createtask.html';">Submit</button>
+            </div>
+
+            
+            
+
+
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        <p>you should break up bigger goals into smaller targets to be more manageable to acomplish.
+        </p>
+    </footer>
+
+
+</body>
+</html>

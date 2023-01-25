@@ -1,0 +1,189 @@
+body {
+    background-color: antiquewhite;
+
+}
+html, body, textarea {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+
+button {
+    padding: 10px 5px;
+    background-color: plum;
+    color: rgb(79, 87, 237);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+  }
+button:hover {
+    opacity: 0.6;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.navigation {
+    background-color: #0fa889;
+    justify-content: center;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-group .button-nav {
+    background-color: #0fa889; 
+    border: none;
+    border-radius: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.right p {
+    font-size: 13px;
+    opacity: 0.75;
+    color: red;
+    margin: 0 -10px; 
+
+}
+
+.btn-group .butttton:hover {
+    opacity: 0.6;
+}
+.maincontent{   
+    background-color: #1abc9c;
+    color: white;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+
+}  
+.maincontent2{   
+    background-color: #7e0e7d;
+    color: white;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 15%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+
+}  
+header {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 0;
+    text-align: center;    
+}
+
+footer {
+    
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+textarea {
+    width: 90%;
+    height: 60%;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
+img.img01 {
+    margin: 0px 0 2px 0;
+    width: 200px;
+}
+
+input[type=text], input[type=password] {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: tan;
+}
+
+.signupbutton {
+    background-color: lightgreen;
+    float: left;
+    width: 50%;
+}
+.cancelbutton {
+    background-color: rebeccapurple;
+    float: left;
+    width: 50%;
+}
+
+.goal{
+    background-color: #7e0e7d;
+    color: white;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+    margin-top: 0.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 0.5%;
+    border-radius: 5px;
+}
+
+
+.good{
+    color:#00ff00;
+    font-size: 12px;
+    letter-spacing: normal;
+    font-weight: 700;
+    display: none;
+}
+
+.error{
+    color: #ff0400;
+    font-size: medium;
+    font-size: 12px;
+    letter-spacing: normal;
+    font-weight: 700;
+    display: none;
+}
+
